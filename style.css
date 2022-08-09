@@ -1,0 +1,141 @@
+body{
+      margin: 0;
+      padding: 0;
+      background: hsl(217, 54%, 11%);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Outfit', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.first-paragraph a{
+  color: hsl(0, 0%, 100%);
+  display: inline;
+  justify-content: left;
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+
+}
+h1{
+  margin: 5px auto;
+  font-size: 20px;
+}
+.first-paragraph a:hover{
+  color: hsl(178, 100%, 50%);
+}
+.eth,.clock{
+  height: 12px;
+}
+.equilibrium{
+  width: 300px;
+  padding: 0;
+  border-radius: 10px;
+  margin: 25px;
+  position: relative;
+}
+.outer-div .icon{
+  position: absolute;
+  background-color: hsl(178, 100%, 50%, 60%);
+  top: 25px;
+  width: 300px;
+  height: 300px;
+  z-index: 999;
+  opacity: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.icon-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon:hover{
+  opacity: 1;
+}
+.paragraph{
+  width: 300px;
+  justify: left;
+  margin-bottom: 15px;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+.first-div,.second-div{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.first-div{
+  width: 100px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.second-div{
+  width: 100px;
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  transform: translateX(95px);
+}
+.outer-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  position: relative;
+}
+
+.first-paragraph{
+  width: 300px;
+}
+.inner-div{
+  width: 300px;
+  margin-bottom: 15px;
+}
+hr{
+  padding: 0;
+  margin: 0;
+  height: 0;
+  width: 300px;
+  border-top: 10px;
+  border-color: hsl(215, 32%, 27%);
+}
+.creator{
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 45px;
+}
+.pic{
+  width: 45px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  float: left;
+}
+.last-p{
+  padding-top: -10px;
+  padding-left: 60px;
+  color: hsl(215, 51%, 70%);
+}
+.last-p a{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+.attribution{
+  margin-top: 20px;
+}
+.creator a:hover{
+  color: hsl(178, 100%, 50%);
+}
+media screen and (max-width){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+}
